@@ -7,14 +7,13 @@
 
 
 @media only screen and (max-width: 500px) {
-        /*-------------------------------------------------Inicio Header------------------------------------------------------------*/  
+       /*-------------------------------------------------Inicio Header------------------------------------------------------------*/  
     /*Inicio Titulo Header*/
     #h1-header{
-        position: absolute;
-        font-size: 50px;
+        z-index: 1;
+        font-size: 30px;
         color: white;
-        margin-left: -1050px;
-        margin-top: -5px;
+        margin-left: 60px;
     }
 
     .imagen-logo {
@@ -28,31 +27,25 @@
 
 
     #header {
-        border-bottom: solid #ed620c 3px;
-        margin-top: -555px;
         z-index: 1;
         position: fixed;
+        border-bottom: solid #ed620c 3px;
+        margin-top: -720px;
+        padding-right: 110px;
+        background-color: #050405;
     }
 
     #header-2 {
+        z-index: 1;
         position: fixed;
         border-bottom: solid #ed620c 3px;
         padding-bottom: 20px;
         padding-right: 1440px;
         background-color: black;
-        z-index: 1;
-    }
-
-    .h1-header-2 {
-        position: absolute;
-        font-size: 50px;
-        color: white;
-        margin-left: 400px;
-        margin-top: 1px;
     }
 
     #secciones-header-h1 {
-        margin-left: 100px;
+        margin-left: -2000px;
     }
 
 
@@ -61,7 +54,7 @@
 
 
     #header-secciones-principal {
-        font-size: 18px;
+        font-size: 15px;
         color: white;
         margin-top: 20px;
     }
@@ -70,13 +63,16 @@
     #header-secciones-button {
         color: #fffdff;
         position: relative;
-        margin-left: 30px;
+        margin-left: 35px;
         margin-top: 50px;
         list-style-type:none ;
     }
 
     #header-secciones-button-2 {
-        margin-left: 1275px;
+        font-size: 15px;
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 200px;
     }
         /*Button Secciones*/
         /*-------------------------------------------------Final Header--------------------------------------------------------------*/  
@@ -289,10 +285,10 @@
 
         /*Icono Index / conexion "Registro"*/
     .icono-registro {
-        width: 80px;
-        height: 71px;
-        margin-left: 1770px;
-        margin-top: -400px;
+        width: 65px;
+        height: 58px;
+        margin-left: 310px;
+        margin-top: -600px;
         position:absolute;
         border: solid black 1.5px;
         border-radius: 100%;
@@ -398,21 +394,21 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 550px;
-        margin-left: 600px;
+        margin-left: 80px;
+        margin-top: 720px;
     }
 
             /*-----------------------------------------------------Footer-------------------------------------------------------*/  
     .footer-index {
         position: absolute;
-        padding: 30px;
-        padding-right: 1833.4px;
+        padding: 5px;
+        padding-right: 10px;
         margin-top: 760px;
         background-color: black;
     }
 
     #footer-index-2 {
-        margin-top: 965px;
+        margin-top: 863px;
     }
 
     .footer-registro {
@@ -447,9 +443,10 @@
     }
 
     #redes-sociales{
-        position: absolute;
-        margin-top: -20px;
-        margin-left: 1720px;
+        font-size: 10px;
+        position: relative;
+        margin-top: -5px;
+        margin-left: 280px;
         line-height: 25px;
         font-family: 'Roboto Mono', monospace;
     }
@@ -466,6 +463,7 @@
         width: 20px;
     }
 
+
     #logo-facebook {
         z-index: 1;
         position: absolute;
@@ -476,15 +474,15 @@
 
     #logo-pizz-speed {
         position: absolute;
-        width: 65px;
-        margin-left: -30px;
-        margin-top: -35px;
+        width: 62px;
+        margin-left: -10px;
+        margin-top: -65px;
     }
     .by-ian-sznurewicz {
-        font-size: 11px;
+        font-size: 6px;
         position: absolute;
-        margin-top: -22px;
-        margin-left: 30px;
+        margin-top: -50px;
+        margin-left: 45px;
         color: white;
         text-decoration: underline;
     }
@@ -739,7 +737,7 @@
         /*------------------------------------------------------Inicio Recomendaciones-----------------------------------------------*/  
     #recomendaciones {
         background-color: white;
-        padding: 270px 220px 310px 220px;
+        padding: 100px 0px 200px 0px;
         border-top: solid black 4px;
         border-bottom: solid black 4px;
         margin-top:335px ;
@@ -747,27 +745,27 @@
 
     #recomendaciones-2 {
         margin-top: -500px;
-        margin-left: -100px;
+        margin-left: 130px;
     }
 
     #h1-recomendaciones {
-        font-size: 60px;
+        font-size: 25px;
         color: black;
         position:absolute;
         margin-top: 820px;
-        margin-left: 450px;
+        margin-left: -40px;
         text-decoration:overline #ff6a00;
     }
 
     #imagen-recomendaciones-1 {
         position: absolute;
-        width: 25%;
+        width: 40%;
         border: solid black 3px;
         border-radius: 10px;
         padding-top: 3px;
         background-color: white;
-        margin-top: 460px;
-        margin-left: 520px;
+        margin-top: 660px;
+        margin-left: -80px;
     }
 
     #imagen-recomendaciones-1:hover{
@@ -802,59 +800,59 @@
 
     #imagen-recomendaciones-2 {
         position: absolute;
-        width: 25%;
+        width: 40%;
         border: solid black 3px;
         border-radius: 10px;
         padding-top: 3px;
         background-color: white;
-        margin-top: 380px;
-        margin-left: 1100px;
+        margin-top: 610px;
+        margin-left: 90px;
     }
 
     #parrafo-combos {
-        font-size: 40px;
+        font-size: 25px;
         position: absolute;
-        margin-top: 600px;
-        margin-left: 350px;
+        margin-top: 626px;
+        margin-left: -40px;
         color: black;
     }
 
         /*Inicio Platos de comida individuales / compartir*/
 
     #imagen-recomendaciones-3 {
-        width: 28%;
-        height:200px;
+        width: 50%;
+        height:90px;
         border: solid black 3px;
         border-radius: 10px;
         padding-top: 3px;
         background-color: white;
-        margin-top: 960px;
-        margin-left: 110px;
+        margin-top: 1090px;
+        margin-left: -100px;
     }
 
     #imagen-recomendaciones-4 {
         position: absolute;
-        width: 30%;
-        height: 240px;
+        width: 45%;
+        height: 150px;
         border: solid black 3px;
         border-radius: 10px;
-        margin-top: 935px;
-        margin-left: 620px;
+        margin-top: 1060px;
+        margin-left: 20px;
     }
 
     #imagen-recomendaciones-5 {
         position: absolute;
-        width: 25%;
-        height: 250px;
+        width: 45%;
+        height: 140px;
         border: solid black 3px;
         border-radius: 10px;
-        margin-top: 930px;
-        margin-left: 100px;
+        margin-left: 40px;
+        margin-top: 870px;
     }
 
     #parrafo-platos {
-        font-size: 25px;
-        margin-top: -180px;
+        font-size: 20px;
+        margin-top: -290px;
         margin-left: -100px;
         color: black;
     }
@@ -868,48 +866,51 @@
         position: absolute;
         margin-top: -5px;
         background-color: white;
-        padding: 745px 1703px 220px 200px;
         border-top: solid black 4px;
         border-bottom: solid black 4px;
+        padding: 550px 170px 310px 220px;
     }
 
     #quienes-somos-h2 {
-        font-size: 70px;
+        font-size: 30px;
         text-decoration:overline #ff6a00;
         position: absolute;
-        margin-top: -500px;
-        margin-left: 500px;
+        margin-top: -400px;
+        margin-left: -140px;
     }
 
     #quienes-somos-mapa {
+        border-radius: 15%;
+        height: 180px;
+        width: 360px;
         position: absolute;
-        margin-top: -140px;
-        margin-left: 390px;
+        margin-top: 120px;
+        margin-left: -205px;
     }
 
     #quienes-somos-parrafo-1 {
-        font-size: 25px;
+        font-size: 12px;
         line-height: 10px;
         position: absolute;
-        margin-top: -160px;
-        margin-left: -170px;
+        margin-top: -300px;
+        margin-left: -200px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     #quienes-somos-parrafo-2 {
-        font-size: 25px;
+        font-size: 12px;
         line-height: 10px;
         position: absolute;
-        margin-top: -55px;
-        margin-left: -170px; 
+        margin-top: -196px;
+        margin-left: -200px; 
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     #quienes-somos-ubicacion {
         position: absolute;
-        font-size: 20px;
-        margin-top: -200px;
-        margin-left: 500px;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: -200px;
         font-family: 'Inter Tight', sans-serif;
         font-family: 'Nunito', sans-serif;
         font-family: 'Poppins', sans-serif;
@@ -918,10 +919,9 @@
 
     #quienes-somos-h2-2 {
         position: absolute;
-        font-size: 40px;
-        position: absolute;
-        margin-top: -265px;
-        margin-left: 850px;
+        font-size: 22px;
+        margin-top: -30px;
+        margin-left: -160px;
     }
 
         /*-------------------------------------------------------Final quienes somos-------------------------------------------------*/  
@@ -2870,17 +2870,15 @@
    .formulario-registro a{
     text-decoration:line-through 2px #ff6a00;
     color:#f5f5f5 ;
-}
+    }
 
     .formulario-registro a:hover {
         text-decoration: underline 2px #ff6a00;
     }
 
-    #span-terminos-condiciones-1, #span-terminos-condiciones-2{
+    #span-terminos-condiciones-1, #spawn-terminos-condiciones-2{
         color: #050405;
     }
-
-
         /*Inicio Registro correcto*/
     .registro-correcto {
         position: absolute;
