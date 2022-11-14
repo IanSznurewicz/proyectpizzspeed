@@ -4,6 +4,8 @@
     
 }
 
+@import 'components/header';
+
 
 
 @media only screen and (max-width: 500px) {
@@ -951,7 +953,7 @@
 
 
     #header {
-        z-index: 1;
+        z-index: 2;
         position: fixed;
         border-bottom: solid #ed620c 3px;
         margin-top: -600px;
@@ -1876,7 +1878,7 @@
     #header {
         border-bottom: solid #ed620c 3px;
         margin-top: -555px;
-        z-index: 1;
+        z-index: 2;
         position: fixed;
     }
 
@@ -2876,7 +2878,7 @@
         text-decoration: underline 2px #ff6a00;
     }
 
-    #span-terminos-condiciones-1, #spawn-terminos-condiciones-2{
+    #span-terminos-condiciones-1, #span-terminos-condiciones-2{
         color: #050405;
     }
         /*Inicio Registro correcto*/
